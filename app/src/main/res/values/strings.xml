@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JAAD_Corps</string>
+    <string name="openDrawer">Abrir el Drawer</string>
+    <string name="closeDrawer">Cerrar el Drawer</string>
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "831626529760",
+    "project_id": "jaadcorps",
+    "storage_bucket": "jaadcorps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831626529760:android:c48451ab37e3a4bc56f985",
+        "android_client_info": {
+          "package_name": "com.example.jaad_corps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuXBLjjlf6QqZSc8RJCFfJR-ytiRQQhdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

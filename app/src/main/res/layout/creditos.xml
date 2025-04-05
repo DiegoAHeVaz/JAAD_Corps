@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/problemas"
+    android:background="@drawable/homebackground"
+    android:padding="16dp"
+    tools:context=".Problemas">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:text="Credito a los Desarrolladores"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="De la Rosa Cegueda Amaya (Informe)"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Hernandez Lopez Julio Cesar (mockup)"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Parra Trejo Denisse Alejandra (Diseñador)"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Hernandez Valdez Diego Armando (Programador)"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/regresar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:text="asd"
+                android:layout_alignParentEnd="false"
+                android:background="@android:color/transparent"
+                android:drawableBottom="@drawable/baseline_arrow_back_24"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

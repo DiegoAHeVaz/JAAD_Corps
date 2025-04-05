@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/perfil"
+        android:title="Perfil" />
+
+    <item
+        android:id="@+id/nav_desarrolladores"
+        android:icon="@drawable/desarrolladores"
+        android:title="Desarrolladores" />
+    <item
+        android:id="@+id/nav_preguntasfrec"
+        android:icon="@drawable/preguntasfrec"
+        android:title="Preguntas Frecuentes" />
+    <item
+        android:id="@+id/nav_ayudaysopo"
+        android:icon="@drawable/ayudaysopo"
+        android:title="Ayuda y soporte" />
+    <item
+        android:id="@+id/nav_creditos"
+        android:icon="@drawable/credit"
+        android:title="Creditos" />
+
+</menu>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/problemas"
+    android:background="@drawable/homebackground"
+    android:padding="16dp"
+    tools:context=".Problemas">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:text="Tuviste problemas en tu proyecto?"
+
+                />
+            <TextView
+                android:paddingTop="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:text="Explica el error:"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/revine"
+                android:hint="...."
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                android:background="@drawable/border"
+                android:padding="18dp"
+                android:inputType="text"
+                android:id="@+id/preg_problema"
+                />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:layout_width="wrap_content"
+                android:text="En que momento te diste cuenta?"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/revine"
+                android:hint="...."
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                android:background="@drawable/border"
+                android:padding="18dp"
+                android:inputType="text"
+                android:id="@+id/Preg_momento"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:layout_width="wrap_content"
+                android:text="Tienes ideas para mejorar alguna seccion de la aplicacion?"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/revine"
+                android:hint="...."
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                android:background="@drawable/border"
+                android:padding="18dp"
+                android:inputType="text"
+                android:id="@+id/Preg_mejor"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:layout_width="wrap_content"
+                android:text="Que cosa agregariamos?"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/revine"
+                android:hint="...."
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="25sp"
+                android:background="@drawable/border"
+                android:padding="18dp"
+                android:inputType="text"
+                android:id="@+id/Preg_suger"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="Contacto directo a :6631695976 (Julio)"
+                android:fontFamily="@font/revine"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/enviar"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:text="asd"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/transparent"
+                android:drawableBottom="@drawable/envi"
+                />
+            <Button
+                android:id="@+id/regresar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:text="asd"
+                android:layout_alignParentEnd="false"
+                android:background="@android:color/transparent"
+                android:drawableBottom="@drawable/baseline_arrow_back_24"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
